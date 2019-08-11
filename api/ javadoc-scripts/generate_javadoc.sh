@@ -26,7 +26,7 @@ javadoc -linkoffline http://developer.android.com/reference ${ANDROID_SDK}/docs/
         -notree -nonavbar -noindex -notree -nohelp -nodeprecated \
         -stylesheetfile javadoc_stylesheet.css \
         -windowtitle "Action Launcher API" \
-        -doctitle "Action Launcher API" \
+        -doctitle  "Action Launcher API" \
         com.actionlauncher.api
 
 cp prettify* ${OUT_PATH}/resources/
